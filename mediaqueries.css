@@ -8,6 +8,7 @@
   }
   #contact,
   #projects {
+    margin-top: 200px;
     height: fit-content;
   }
 }
@@ -98,6 +99,18 @@
     font-size: 2rem;
   }
   .text-container {
+    margin: 0!important;
     text-align: justify;
+  }
+  .contact-info-upper-container{
+    display: flex;flex-direction: column!important;justify-content: center; align-items: center  }
+  #about{
+    margin-top: -80px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  .about-containers{
+    margin-bottom: 20px;
   }
 }
